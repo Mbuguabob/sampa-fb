@@ -1,1 +1,15 @@
+=====================================================================================================================
+Huffman Algorithm ___________________________________________________________________________________________________
+=====================================================================================================================
+Huffman coding is a type of greedy algorithm developed by David A. Huffman during the late 19th century. It is one of the most used algorithms for various purposes all over the technical domain. This algorithm is commonly found in almost all programming languages like C, C++, Java, Python, JavaScript, etc.
 
+Huffman coding is a greedy algorithm frequently used for lossless data compression. Therefore, a basic principle of Huffman coding is to compress and encode the text or the data depending on the frequency of the characters in the text.
+
+The basic idea behind the Huffman coding algorithm is to assign the variable-length codes to input characters of text based on the frequencies of the corresponding character. So, the most frequent character gets the smallest code, and the least frequent character is assigned with the largest code.
+
+Here, the codes assigned to the characters are termed prefix codes which means that the code assigned to one character is not the prefix of the code assigned to any other character. Using this technique, Huffman coding ensures that there is no ambiguity when decoding the generated bitstream.
+
+Huffman Code Example
+Let us understand how Huffman coding works with the example below:
+
+Consider the following input text
